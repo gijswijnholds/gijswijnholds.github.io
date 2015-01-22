@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> Gijs Wijnholds' Homepage </title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+
+<header> 
+<h1> Gijs Wijnholds </h1>
+</header>
+
+<aside> 
+
+<p>
+<a href="index.html">Home</a>
+</p>
+
+<p>
+<a href="cv.html">CV</a>
+</p>
+
+<p>
+<a href="publications.html">Publications</a>
+</p>
+
+<p>
+<a href="teaching.html">Teaching</a>
+</p>
+
+<p>
+<a href="contact.html">Contact</a>
+</p>
+
+</aside>
+
+<section> 
+<h4> Contact </h4>
+
+<p>
+E-mail: <a href="mailto:gijswijnholds@hotmail.com">gijswijnholds@hotmail.com</a>
+or
+<a href="mailto:gijswijnholds@gmail.com">gijswijnholds@gmail.com</a>
+</p>
+
+<p>
+LinkedIn: <a href="https://www.linkedin.com/pub/gijs-wijnholds/78/a03/12a">Gijs Wijnholds</a>
+</p>
+
+</section>
+
+<footer> &copy Copyright Gijs Wijnholds 2015 </footer>
+
+</body>
+
+</html>

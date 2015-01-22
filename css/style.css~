@@ -33,7 +33,6 @@ aside {
   float: left;
   width: 15%;
   height: 90%;
-  min-height: 90%;
 }
 
 a:link {
