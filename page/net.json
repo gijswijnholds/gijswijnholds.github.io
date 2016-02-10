@@ -1,0 +1,8 @@
+{
+"name": "testnet",
+"type": "monotimes",
+"subnets": [
+  {"N1": "point"},
+  {"N2": "point"}
+]
+}

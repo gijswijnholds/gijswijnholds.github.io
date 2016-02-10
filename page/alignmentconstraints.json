@@ -1,0 +1,54 @@
+﻿{
+    "nodes":[
+      {"name":"a","group":"G3","width":10,"height":10},
+      {"name":"b","group":"G2","width":60,"height":40},
+      {"name":"c","group":"G1","width":60,"height":40},
+      {"name":"d","group":"G1","width":10,"height":10},
+      {"name":"e","group":"G1","width":10,"height":10},
+      {"name":"f","group":"G1","width":60,"height":40},
+      {"name":"g","group":"G2","width":10,"height":10},
+      {"name":"h","group":"G2","width":60,"height":40},
+      {"name":"i","group":"G3","width":10,"height":10}
+    ],
+    "links":[
+      {"curve":"straight","source":0,"target":1},
+      {"curve":"left-down","source":1,"target":2},
+      {"curve":"left-down","source":2,"target":3},
+      {"curve":"right-down","source":2,"target":4},
+      {"curve":"down-right","source":3,"target":5},
+      {"curve":"down-left","source":4,"target":5},
+      {"curve":"right-down","source":1,"target":6},
+      {"curve":"down-right","source":5,"target":7},
+      {"curve":"down-left","source":6,"target":7},
+      {"curve":"straight","source":7,"target":8}
+    ],
+	  "constraints":[
+     {"axis":"x", "left":3, "right":2, "gap":50},
+     {"axis":"x", "left":3, "right":5, "gap":50},
+     {"axis":"x", "left":2, "right":4, "gap":80},
+     {"axis":"x", "left":5, "right":4, "gap":80},
+     {"axis":"x", "left":4, "right":1, "gap":100},
+     {"axis":"x", "left":4, "right":0, "gap":100},
+     {"axis":"x", "left":4, "right":7, "gap":100},
+     {"axis":"x", "left":4, "right":8, "gap":100},
+     {"axis":"x", "left":1, "right":6, "gap":100},
+     {"axis":"x", "left":7, "right":6, "gap":100},
+     {"axis":"x", "left":0, "right":6, "gap":100},
+     {"axis":"x", "left":8, "right":6, "gap":100},
+     {"axis":"y", "left":0, "right":1, "gap":20},
+     {"axis":"y", "left":1, "right":2, "gap":50},
+     {"axis":"y", "left":2, "right":3, "gap":50},
+     {"axis":"y", "left":2, "right":4, "gap":50},
+     {"axis":"y", "left":1, "right":6, "gap":100},
+     {"axis":"y", "left":3, "right":5, "gap":50},
+     {"axis":"y", "left":4, "right":5, "gap":50},
+     {"axis":"y", "left":5, "right":7, "gap":50},
+     {"axis":"y", "left":6, "right":7, "gap":100},
+     {"axis":"y", "left":7, "right":8, "gap":20}
+    ],
+    "groups" : [
+      {"name":"G1","in":2,"out":5,"leaves":[2,3,4,5]},
+      {"name":"G2","in":1,"out":7,"leaves":[1,6,7],"groups":[0]},
+      {"name":"G3","leaves":[0,8],"groups":[1]}
+    ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<style>
+  .node {
+    cursor: pointer;
+  }
+</style>
+
+<body>
+<script src="./static/d3.min.js"></script>
+<script src="diagrams.js"></script>
+
+<script>
+
+d3.json("net.json", function(json) {
+  console.log(json);
+});
+
+d3.select("body").append("svg")
+.attr({
+  "width": 600,
+  "height": 400,
+});
+
+var n1 = {"x": 150, "y": 175};
+var n2 = {"x": 150, "y": 325};
+var point1 = {"x" : 75, "y" : 250};
+var point2 = {"x" : 225, "y" : 250};
+var point3 = {"x" : 150, "y" : 100};
+var point4 = {"x" : 150, "y" : 400};
+
+layoutMonOtimesGray(n1);
+layoutMonOtimesWhite(n2);
+drawLine(n1, point1, left, id, yDiff, sndX);
+drawLine(n1, point2, right, id, yDiff, sndX);
+drawLine(point1, n2, id, left, yDiff2, fstX);
+drawLine(point2, n2, id, right, yDiff2, fstX);
+
+drawStraightLine(point3, n1, id, up);
+drawStraightLine(n2, point4, down, id);
+
+</script>
+
+
+</body>
+
+</html>
