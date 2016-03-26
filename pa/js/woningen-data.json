@@ -1,0 +1,32 @@
+[
+  { "name": "John Smith",
+    "title": "Job Title",
+    "url": "http://placehold.it/750x450",
+    "desc": "What does this team member do? Keep it short! This is also a great spot for social links!"
+  },
+  { "name": "Jane Smith",
+    "title": "Job Title",
+    "url": "http://placehold.it/750x450",
+    "desc": "What does this team member do? Keep it short! This is also a great spot for social links!"
+  },
+  { "name": "Jerry Smith",
+    "title": "Job Title",
+    "url": "http://placehold.it/750x450",
+    "desc": "What does this team member do? Keep it short! This is also a great spot for social links!"
+  },
+  { "name": "Jennifer Smith",
+    "title": "Job Title",
+    "url": "http://placehold.it/750x450",
+    "desc": "What does this team member do? Keep it short! This is also a great spot for social links!"
+  },
+  { "name": "Jimmy Smith",
+    "title": "Job Title",
+    "url": "http://placehold.it/750x450",
+    "desc": "What does this team member do? Keep it short! This is also a great spot for social links!"
+  },
+  { "name": "Jo Smith",
+    "title": "Job Title",
+    "url": "http://placehold.it/750x450",
+    "desc": "What does this team member do? Keep it short! This is also a great spot for social links!"
+  }
+]
