@@ -8,8 +8,8 @@ angular.module('wijnholds')
 
   $http.get('js/' + $routeParams.type + '-data.json').then(function(data) {
     $scope.portfolio = data.data;
-    console.log($routeParams.type);
-    console.log(data);
+    $scope.name = $routeParams.type;
+    console.log($scope.portfolio);
   });
 
 });

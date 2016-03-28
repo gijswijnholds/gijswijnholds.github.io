@@ -3,13 +3,13 @@
     <div class="row">
 
         <div class="col-lg-12">
-            <h1 class="page-header">Portfolio test
+            <h1 class="page-header">Portfolio {{ name }}
                 <small>It's Nice to Meet You!</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="../index.html">Home</a>
                 </li>
-                <li class="active">About</li>
+                <li class="active">Portfolio {{ name }}</li>
             </ol>
         </div>
 
@@ -26,7 +26,27 @@
 
     </div>
 
-    <!-- Our Customers -->
+    <!-- Team Member Profiles -->
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Our Team</h2>
+        </div>
+
+        <div ng-repeat="item in portfolio" class="col-sm-4">
+            <img class="img-responsive" src="{{ item.urls[0].url }}">
+
+            <h3>{{ item.name }}
+                <small>{{ item.location }}</small>
+            </h3>
+            <p>{{ item.desc }}</p>
+
+        </div>
+
+    </div>
+
+    <!-- Customers -->
 
     <div class="row">
 

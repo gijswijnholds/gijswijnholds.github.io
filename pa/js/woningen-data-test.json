@@ -1,0 +1,10 @@
+[
+
+{ "name" : "Reguliere woning",
+  "location":"Stadskanaal",
+  "desc" : "Leuke woning he!",
+  "urls" : [ { "url":"content/Woningen/StadskanaalW2/Stadskanaal W2.jpg" },
+             { "url":"content/Woningen/StadskanaalW2/StadskanaalW2.jpg" } ]
+}
+
+]
