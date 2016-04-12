@@ -164,34 +164,12 @@
             <h2 class="page-header">Service Images</h2>
         </div>
 
-        <div class="col-sm-4">
+        <div ng-repeat="step in process" class="col-sm-4">
             <img class="img-responsive" src="http://placehold.it/750x450">
 
-            <h3>Service One</h3>
+            <h3>Service {{ step.number }}</h3>
 
-            <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis
-                nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
-            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
-        </div>
-
-        <div class="col-sm-4">
-            <img class="img-responsive" src="http://placehold.it/750x450">
-
-            <h3>Service Two</h3>
-
-            <p>Service two description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis
-                nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
-            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
-        </div>
-
-        <div class="col-sm-4">
-            <img class="img-responsive" src="http://placehold.it/750x450">
-
-            <h3>Service Three</h3>
-
-            <p>Service three description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam
-                quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
-            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+            <p>{{ step.desc }}</p>
         </div>
 
     </div>

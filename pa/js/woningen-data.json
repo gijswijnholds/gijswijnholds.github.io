@@ -9,31 +9,28 @@
 { "name" : "",
   "location":"Exloo",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/ExlooW1/ExlooW1.jpg" },
+  "urls" : [ { "url":"content/Woningen/ExlooW1/ExlooW1.JPG" },
              { "url":"content/Woningen/ExlooW1/ExlooW1a.jpg" } ]
 },
 { "name" : "",
   "location":"Norg",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/Norg1/Norg1.tif" }
-           ]
+  "urls" : [ { "url":"content/Woningen/Norg1/Norg1.tif" } ]
 },
 { "name" : "",
   "location":"Zwolle",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/ZwolleW2/Zwolle W2.tif" }
-           ]
+  "urls" : [ { "url":"content/Woningen/ZwolleW2/Zwolle W2.tif" } ]
 },
 { "name" : "",
   "location":"Hattem",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/HattemW2/Hattem2.jpg" }
-           ]
+  "urls" : [ { "url":"content/Woningen/HattemW2/Hattem2.JPG" } ]
 },
 { "name" : "",
   "location":"Zwolle",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/ZwolleH1/ZwolleH1.jpg" }
+  "urls" : [ { "url":"content/Woningen/ZwolleH1/ZwolleH1.JPG" }
            ]
 },
 { "name" : "",
@@ -45,14 +42,14 @@
 { "name" : "",
   "location":"Dalen",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/DalenW1/Dalen.jpg" }
+  "urls" : [ { "url":"content/Woningen/DalenW1/Dalen.JPG" }
            ]
 },
 { "name" : "",
   "location":"Zwolle",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/ZwolleW4/ZwolleW4b.jpg" },
-             { "url":"content/Woningen/ZwolleW4/ZwolleW4a.jpg" }
+  "urls" : [ { "url":"content/Woningen/ZwolleW4/ZwolleW4b.JPG" },
+             { "url":"content/Woningen/ZwolleW4/ZwolleW4a.JPG" }
            ]
 },
 { "name" : "",
@@ -79,7 +76,7 @@
 { "name" : "",
   "location":"Zwolle",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/ZwolleW3/ZwolleW3.tif" }
+  "urls" : [ { "url":"content/Woningen/ZwolleW3/ZwolleW3.TIF" }
            ]
 },
 { "name" : "",
@@ -105,7 +102,7 @@
 { "name" : "",
   "location":"Emmen",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/EmmenW2/EmmenW2.jpg" }
+  "urls" : [ { "url":"content/Woningen/EmmenW2/EmmenW2.JPG" }
            ]
 },
 { "name" : "",
@@ -117,7 +114,7 @@
 { "name" : "",
   "location":"Raalte",
   "desc" : "Leuke woning he!",
-  "urls" : [ { "url":"content/Woningen/Raalte1/Raalte1b.jpg" }
+  "urls" : [ { "url":"content/Woningen/Raalte1/Raalte1b.JPG" }
            ]
 },
 { "name" : "",
@@ -144,5 +141,5 @@
   "desc" : "Leuke woning he!",
   "urls" : [ { "url":"content/Woningen/BeekbergenW1/Beekbergen1.tif" }
            ]
-},
+}
 ]

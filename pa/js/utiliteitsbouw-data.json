@@ -1,10 +1,68 @@
 [
-  { "name": "Leuk Utiliteitsgebouw",
-    "url": "http://placehold.it/750x450",
-    "desc": "Wat een leuk gebouw!"
-  },
-  { "name": "Leuk Utiliteitsgebouw #2",
-    "url": "http://placehold.it/750x450",
-    "desc": "Wat een kutgebouw."
-  }
+
+{ "name" : "Utiliteitsgebouw",
+  "location":"Assendelft",
+  "desc" : "Leuk kantoor hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Assendelft/Assendelft1.JPG" },
+             { "url":"content/Utiliteitsbouw/Assendelft/Assendelft2.JPG" }
+           ]
+},
+{ "name" : "Utiliteitsgebouw",
+  "location":"Zwolle",
+  "desc" : "Leuk kantoor hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Bedrijfsgebouw te Zwolle/Zwolle.JPG" }
+           ]
+},
+{ "name" : "Zorggebouw",
+  "location":"Utrecht",
+  "desc" : "Leuk ziekenhuis hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Zorggebouw Utrecht/Utrecht1.jpg" },
+             { "url":"content/Utiliteitsbouw/Zorggebouw Utrecht/Utrecht2.jpg" }
+           ]
+},
+{ "name" : "Winkelruimte",
+  "location":"Raalte",
+  "desc" : "Leuke winkel hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Winkelruimte Raalte/Raalte 1b.jpg" },
+             { "url":"content/Utiliteitsbouw/Winkelruimte Raalte/Raalte1a.JPG" }
+           ]
+},
+{ "name" : "Winkelruimte",
+  "location":"Kampen",
+  "desc" : "Leuke winkel hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Winkelruimte Kampen/Winkelruimte Kampen.bmp" }
+           ]
+},
+{ "name" : "Bedrijfsgebouw",
+  "location":"Hoogeveen",
+  "desc" : "Leuk bedrijf hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Bedrijfsgebouw Hoogeveen/Hoogeveen 1.TIF" }
+           ]
+},
+{ "name" : "Accountantskantoor",
+  "location":"Assen",
+  "desc" : "Leuk accountantskantoor hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Accountantskantoor te Assen/Accountantskantoer te Assen1a.JPG" },
+             { "url":"content/Utiliteitsbouw/Accountantskantoor te Assen/Accountantskantoor Assen1.JPG" }
+           ]
+},
+{ "name" : "Kantoorgebouw",
+  "location":"Emmen",
+  "desc" : "Mooi kantoor hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Kantoorgebouw Emmen/EmmenK1.jpg" },
+             { "url":"content/Utiliteitsbouw/Kantoorgebouw Emmen/EmmenK2.jpg" }
+           ]
+},
+{ "name" : "KEIC",
+  "location":"Lelystad",
+  "desc" : "Mooi KEIC hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/KEIC Lelystad/Lelystad1.pdf" }
+           ]
+},
+{ "name" : "Kantoorgebouw",
+  "location":"Dronten",
+  "desc" : "Mooi kantoor hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Kantoorgebouw te Dronten/Dronten 1.jpg" }
+           ]
+}
 ]

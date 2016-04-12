@@ -3,8 +3,8 @@
  */
 angular.module('wijnholds')
 
-.controller('OverCtrl', function ($scope, $http) {
-  console.log("Over Controller reporting for duty.");
+.controller('DienstenCtrl', function ($scope, $http) {
+  console.log("Diensten Controller reporting for duty.");
 
   // Activates the Carousel
   $('.carousel').carousel({
@@ -16,8 +16,8 @@ angular.module('wijnholds')
     selector: "a[data-toggle=tooltip]"
   })
 
-  $http.get('js/woningen-data.json').then(function(data) {
-    $scope.members = data.data;
+  $http.get('js/diensten-data.json').then(function(data) {
+    $scope.process = data.data;
     console.log(data);
   });
 });
