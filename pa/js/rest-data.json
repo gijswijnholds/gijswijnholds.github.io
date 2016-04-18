@@ -1,0 +1,13 @@
+{ "name" : "Winkelruimte",
+  "location":"Raalte",
+  "desc" : "Leuke winkel hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Winkelruimte Raalte/Raalte 1b.jpg" },
+             { "url":"content/Utiliteitsbouw/Winkelruimte Raalte/Raalte1a.JPG" }
+           ]
+},
+{ "name" : "Winkelruimte",
+  "location":"Kampen",
+  "desc" : "Leuke winkel hoor",
+  "urls" : [ { "url":"content/Utiliteitsbouw/Winkelruimte Kampen/Winkelruimte Kampen.bmp" }
+           ]
+},
