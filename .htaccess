@@ -1,5 +1,5 @@
 AuthName "Hello"
 AuthType Basic
-AuthUserFile https://gijswijnholds.github.io/.htpasswd
+AuthUserFile https://raw.githubusercontent.com/gijswijnholds/gijswijnholds.github.io/master/.htpasswd
 AuthGroupFile /dev/null 
 require valid-user
