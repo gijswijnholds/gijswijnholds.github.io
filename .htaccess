@@ -1,0 +1,5 @@
+AuthName "Hello"
+AuthType Basic
+AuthUserFile /customers/2/7/0/gijswijnholds.github.io/httpd.www/pa/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user
