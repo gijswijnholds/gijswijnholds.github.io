@@ -301,6 +301,9 @@ function contractStep2(path, duration) {
     // 7, 8, 9, 10, 11, 16 (is low)
     var delta3 = d3.select("#d3")
 
+    var delta4 = d3.select("#d4")
+    var delta2 = d3.select("#d2")
+
     n8.transition().duration(duration).attr({"cx" : n7.attr("cx"), "cy" : n7.attr("cy"), "r" : 0}).remove()
     n9.transition().duration(duration).attr({"cx" : n7.attr("cx"), "cy" : n7.attr("cy"), "r" : 0}).remove()
     n10.transition().duration(duration).attr({"cx" : n7.attr("cx"), "cy" : n7.attr("cy"), "r" : 0}).remove()
@@ -330,8 +333,35 @@ function contractStep2(path, duration) {
     e17.transition().duration(duration).attr({"x1" : e17.attr("x1") - moveVector.x, "y1" : e17.attr("y1") - moveVector.y, "x2" : e17.attr("x2") - moveVector.x, "y2" : e17.attr("y2") - moveVector.y})
     e18.transition().duration(duration).attr({"x1" : e18.attr("x1") - moveVector.x, "y1" : e18.attr("y1") - moveVector.y, "x2" : e18.attr("x2") - moveVector.x, "y2" : e18.attr("y2") - moveVector.y})
 
+    // move the rightmost delta to the left
     delta3.transition().duration(duration).attr({"x" : delta3.attr("x") - moveVector.x, "y" : delta3.attr("y") - moveVector.y})
 
+    // merge delta2 and delta4
+    delta4.transition().duration(duration).attr({"x": delta2.attr("x"), "y": delta2.attr("y")}).remove()
+    delta2.transition().duration(duration).remove()
+
+    var latex_raw = "\\delta^{l,m}_{p,q}";
+    var latex_query = encodeURI(latex_raw);
+    setTimeout(function() {
+        d3.select("svg").append("foreignObject")
+         .attr({
+             "x": delta2.attr("x"),
+             "y": delta2.attr("y"),
+             "width": 400,
+             "height": 200,
+             "requiredFeatures": "http://www.w3.org/TR/SVG11/feature#Extensibility",
+             "id" : "d2"
+        })
+         .append("xhtml:body").attr({
+             "margin": 0,
+             "padding": 0,
+             "width": 400,
+             "height": 200
+        })
+         .append("img").attr({
+         "src": latex_render_url + latex_query
+        })
+    },duration - 200)
     // e17.transition().duration(duration).attr({"x1" : e17.attr("x1") - moveVector.x, "y1" : n17.attr("cy") - moveVector.y, "x2" : n18.attr("cx") - moveVector.x, "y2" : n18.attr("cy") - moveVector.y})
     // e18.transition().duration(duration).attr({"x1" : n17.attr("cx") - moveVector.x, "y1" : n17.attr("cy") - moveVector.y, "x2" : n22.attr("cx") - moveVector.x, "y2" : n22.attr("cy") - moveVector.y})
     // e19.transition().duration(duration).attr({"x1" : n18.attr("cx") - moveVector.x, "y1" : n18.attr("cy") - moveVector.y, "x2" : n19.attr("cx") - moveVector.x, "y2" : n19.attr("cy") - moveVector.y})

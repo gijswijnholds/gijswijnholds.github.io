@@ -21,8 +21,9 @@
       {"name": "n18", "type": "latex", "latex": "\\mathbf{vrouwen}_n", "x": 760, "y": 260},
       {"name": "n22", "type": "latex", "latex": "\\mathbf{haten}_{opq}", "x": 760, "y": 360},
       {"name": "d1", "type": "delta", "latex": "\\delta^i_j", "x": 100, "y": 100},
-      {"name": "d2", "type": "delta", "latex": "\\delta^{l,m}_{p,q}", "x": 240, "y": 180},
-      {"name": "d3", "type": "delta", "latex": "\\delta^n_o", "x": 700, "y": 300}
+      {"name": "d2", "type": "delta", "latex": "\\delta^m_q", "x": 240, "y": 180},
+      {"name": "d3", "type": "delta", "latex": "\\delta^n_o", "x": 700, "y": 300},
+      {"name": "d4", "type": "delta", "latex": "\\delta^l_p", "x": 560, "y": 180}
   ],
   "edges": [
       {"name": "e1", "type": "line", "source": "n1", "target": "n2"},
