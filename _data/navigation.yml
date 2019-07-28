@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /
-    
+
   - title: "Publications"
     url: /publications/
 
@@ -12,6 +12,9 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "Reviewing & Organisation"
+    url: /organisation/
+    
   # - title: "Portfolio"
   #   url: /portfolio/
 
