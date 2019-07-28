@@ -19,9 +19,10 @@ I have served on the program committee as a reviewer for the following venues:
   <li><a href="https://www.conll.org/2018">The SIGNLL Conference on Computational Natural Language Learning</a> (CONLL), 2018</li>
 </ul>
 
-I was involved with the organisation of:
+Besides reviewing, I was involved in these:
 ------
 
 <ul>
-  <li><a href="http://www.molweb.org/mol/mol2017/">Mathematics of Language</a> (MoL), 2017. Queen Mary University of London.</li>
+  <li>Teaching assistant at the 2019 <a href="http://www.cs.ox.ac.uk/ACT2019/">Applied Category Theory School</a></li>
+  <li>Local organisation for <a href="http://www.molweb.org/mol/mol2017/">Mathematics of Language</a> (MoL), 2017. Queen Mary University of London.</li>
 </ul>
