@@ -1,6 +1,4 @@
 component_depth: 1
 languages:
-- html
-- markdown
 - python
 - ruby
