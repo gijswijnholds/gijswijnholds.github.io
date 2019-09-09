@@ -11,6 +11,7 @@ I have served on the program committee as a reviewer for the following venues:
 ------
 
 <ul>
+  <li><a href="https://www.conll.org/2019">The SIGNLL Conference on Computational Natural Language Learning</a> (CONLL), 2019</li>
   <li><a href="https://www.emnlp-ijcnlp2019.org">Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing</a> (EMNLP-IJCNLP), 2019</li>
   <li><a href="http://www.acl2019.org">The 57th Annual Meeting of the Association for Computational Linguistics</a> (ACL), 2019</li>
   <li><a href="https://starsem.org/2019/">The Eighth Joint Conference on Lexical and Computational Semantics</a> (*SEM) 2019</li>
