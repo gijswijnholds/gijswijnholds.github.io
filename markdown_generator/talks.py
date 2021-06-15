@@ -33,6 +33,7 @@ import os
 
 # In[3]:
 
+
 talks = pd.read_csv("talks.tsv", sep="\t", header=0)
 talks
 
@@ -61,6 +62,11 @@ def html_escape(text):
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page.
 
 # In[5]:
+
+old_files = os.listdir("../_talks/")
+for f in old_files:
+    os.remove("../_talks/" + f)
+
 
 loc_dict = {}
 

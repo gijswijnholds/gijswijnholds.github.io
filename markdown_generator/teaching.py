@@ -62,6 +62,11 @@ def html_escape(text):
 
 # In[5]:
 
+old_files = os.listdir("../_teaching/")
+for f in old_files:
+    os.remove("../_teaching/" + f)
+
+
 loc_dict = {}
 
 for row, item in talks.iterrows():
