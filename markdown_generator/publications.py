@@ -62,6 +62,11 @@ def html_escape(text):
 # In[5]:
 
 import os
+old_files = os.listdir("../_publications/")
+for f in old_files:
+    os.remove("../_publications/" + f)
+
+
 for row, item in publications.iterrows():
 
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
