@@ -19,6 +19,26 @@ Preprints
 {% endfor %}
 </ul>
 
+2021
+------
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.year == 2021 and post.type == "published" %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+2020
+------
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.year == 2020 and post.type == "published" %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
 2019
 ------
 <ul>
