@@ -19,6 +19,16 @@ Preprints
 {% endfor %}
 </ul>
 
+2022
+------
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.year == 2022 and post.type == "published" %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
 2021
 ------
 <ul>
