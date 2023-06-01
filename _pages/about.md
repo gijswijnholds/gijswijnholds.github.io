@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently working as a postdoctoral researcher at the Utrecht Institute of Linguistics OTS, as a member of the research project "A composition calculus for vector-based semantic modelling with a localization for Dutch" led by Prof. Dr. Michael Moortgat. The project (funded by the NWO) aims at developing novel techniques for modelling sentences as vectorial representations, with a specific focus on specificities of the Dutch language.
+I've started as assistant professor in the Text Mining and Retrieval Group in Leiden University, at the <a href="https://liacs.leidenuniv.nl/">Leiden Institute for Advanced Computer Science (LIACS)</a>, as of April 2023!
+
+Before I worked as a postdoctoral researcher at the Institute for Language Sciences at Utrecht University, as a member of the research project "A composition calculus for vector-based semantic modelling with a localization for Dutch" led by Prof. Dr. Michael Moortgat. The project (funded by the NWO) aims at developing novel techniques for modelling sentences as vectorial representations, with a specific focus on specificities of the Dutch language.
 
 Recently I defended my PhD that I pursued in the Theory Group of the School of Electronic Engineering and Computer Science at Queen Mary University of London. Under the supervision of Mehrnoosh Sadrzadeh I worked on several issues in compositional distributional semantics. In particular I focused on sentence-level representations involving ellipsis and anaphora, developing a new theoretical model as well as studying its experimental implications (see my <a href="{{ base_path }}/publications/" rel="permalink">publications</a>).
 
