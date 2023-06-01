@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I've started as assistant professor in the Text Mining and Retrieval Group in Leiden University, at the <a href="https://liacs.leidenuniv.nl/">Leiden Institute for Advanced Computer Science (LIACS)</a>, as of April 2023!
+I've started as assistant professor in the <a href="https://tmr.liacs.nl/">Text Mining and Retrieval Group</a> in Leiden University, at the <a href="https://liacs.leidenuniv.nl/">Leiden Institute for Advanced Computer Science (LIACS)</a>, as of April 2023!
 
 Before I worked as a postdoctoral researcher at the Institute for Language Sciences at Utrecht University, as a member of the research project "A composition calculus for vector-based semantic modelling with a localization for Dutch" led by Prof. Dr. Michael Moortgat. The project (funded by the NWO) aims at developing novel techniques for modelling sentences as vectorial representations, with a specific focus on specificities of the Dutch language.
 
