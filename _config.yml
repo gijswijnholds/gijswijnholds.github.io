@@ -83,11 +83,11 @@ analytics:
 author:
   name             : "Gijs Wijnholds"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Researcher at Utrecht University"
+  bio              : "Assistant Professor at Leiden University"
   location         : "Utrecht, NL"
   employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=swQRKE8AAAAJ"
-  email            : "g.j.wijnholds@uu.nl"
+  email            : "g.j.wijnholds@liacs.leidenuniv.nl"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
